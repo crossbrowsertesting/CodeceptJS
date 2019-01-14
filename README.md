@@ -20,7 +20,7 @@ Be sure to select the WebDriver option when prompted "What helpers do you want t
 
 ## Open the generated test file and copy the ofllowing test ##
 
-```
+```javascript
 Feature('Codecepttest');
 
 Scenario('test something', (I) => {
@@ -37,7 +37,7 @@ I.click('/html/body/div/div/div/a');
 
 ## Edit the .conf.js file to look like the following ##
 Be sure to add your username and authkey
-```
+```javascript
 exports.config = {
    tests: './*_test.js',
    output: './output',
