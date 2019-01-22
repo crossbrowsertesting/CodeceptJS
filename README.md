@@ -1,4 +1,4 @@
-# Getting Started with CucumberJS and CrossBrowserTesting #
+# Getting Started with CodeceptJS and CrossBrowserTesting #
 
 CodeceptJS is a multi-backend testing framework. It can execute tests using different libraries like WebDriverIO, Puppeteer, Protractor, etc.
 
