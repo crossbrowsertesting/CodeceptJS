@@ -11,12 +11,13 @@ exports.config = {
       key: 'YOUR_AUTHKEY',
       desiredCapabilities:{
         name: "Codeceptjs Test",
-        platform: "Windows 10",  
-        browserName: 'Chrome',   
+        platform: "Windows 10",
+        browserName: 'Chrome',
         version: '71x64',
-        record_video: 'true' 
+        record_video: 'true' ,
+        record_network: 'false',
       },
-     
+
     }
   },
   include: {},
