@@ -2,7 +2,10 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
-    WebDriverIO: {
+    SetScore: {
+        "require": "./setscore_helper.js"
+    },
+    WebDriver: {
       url: 'http://crossbrowsertesting.github.io/todo-app.html',
       browser: 'chrome',
       host: 'hub.crossbrowsertesting.com',
@@ -13,7 +16,6 @@ exports.config = {
         name: "Codeceptjs Test",
         platform: "Windows 10",
         browserName: 'Chrome',
-        version: '71x64',
         record_video: 'true' ,
         record_network: 'false',
       },
