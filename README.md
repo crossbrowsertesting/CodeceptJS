@@ -157,8 +157,7 @@ module.exports = SetScore;
 
 
 ## Parallel Testing ##
-For parallel testing, the following changes should be made to your conf.js file
-
+For parallel testing, the following changes should be made to your conf.js file:
 ```
 exports.config = {
   tests: './*_test.js',
